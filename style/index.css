@@ -9,3 +9,11 @@ body {
 		)
 		no-repeat center center fixed;
 }
+
+li {
+	margin-bottom: 7px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-weight: bold;
+	color: black;
+}

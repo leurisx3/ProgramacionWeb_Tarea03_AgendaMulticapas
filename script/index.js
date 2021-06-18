@@ -7,7 +7,7 @@ buttonGet.addEventListener('click', () => {
         const list = document.getElementById('list')
         for (const userInfo of data) {
             const listItem = document.createElement('li')
-            listItem.textContent = `${userInfo.nombre} - ${userInfo.apellido} - ${userInfo.telefono}`
+            listItem.textContent = `Nombre: ${userInfo.nombre} Apellido: ${userInfo.apellido} Telefono: ${userInfo.telefono}`
             list.appendChild(listItem)
         }
     })
